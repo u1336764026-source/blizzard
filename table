@@ -1,5 +1,5 @@
 getgenv().blizzard = {
-    ['Script Key'] = { "" },
+    ['Script Key'] = { "Put your key in here" },
 
     ["Options"] = {
         ['Notification'] = (true),
