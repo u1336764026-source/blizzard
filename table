@@ -1,0 +1,167 @@
+getgenv().blizzard = {
+    ['Script Key'] = { "" },
+
+    ["Options"] = {
+        ['Notification'] = (true),
+        ['Intro'] = (true),
+    },
+
+    ['Combat'] = {
+        ['SilentAim'] = {
+            ['Enabled'] = (true),
+            ['Type'] = ("Target"), -- Target / FOV
+            ['HitChance'] = (100),
+            ['Prediction'] = {
+                ['X'] = 0,
+                ['Y'] = 0,
+                ['Z'] = 0,
+            },
+            ['AutoPrediction'] = (true),
+
+            ['Target'] = {
+                ['Mode'] = ("Default"), -- Default / Nearest
+                ['Bone'] = ("HumanoidRootPart"),
+            },
+
+            ['Extra'] = {
+                ['AntiAimViewer'] = (false),
+                ['AntiCurve'] = (false),
+                ['AntiGroundShots'] = (true),
+            },
+
+            ['Offset'] = {
+                ['Enabled'] = (false),
+                ['X'] = 0,
+                ['Y'] = 0,
+            },
+
+            ['GunFOV'] = {
+                ['Use'] = (false),
+                ['Shotguns'] = {6},
+                ['Pistols']  = {5.7},
+                ['Rifles']   = {4},
+            },
+        },
+
+        ['AimAssist'] = {
+            ['Enabled'] = (true),
+            ['Key'] = ("Z"),
+            ['Mode'] = ("Toggle"), -- Toggle / Hold
+            ['Prediction'] = {
+                ['X'] = 0,
+                ['Y'] = 0,
+                ['Z'] = 0,
+            },
+            ['AutoPrediction'] = (false),
+
+            ['Smoothing'] = {
+                ['Enabled'] = (true),
+                ['Strength'] = (0.04556),
+                ['Style'] = ("Quad"), -- Linear / Quad / Cubic / Quart / Quint / Exponential / Delta / Blizzard / Custom
+            },
+
+            ['Target'] = {
+                ['Bone'] = ("Head"),
+            },
+
+            ['Offset'] = {
+                ['Enabled'] = (false),
+                ['X'] = 0,
+                ['Y'] = 0,
+            },
+
+            ['AirPart'] = {
+                ['Enabled'] = (false),
+                ['Part'] = ("HumanoidRootPart"),
+            },
+        },
+
+        ['TriggerBot'] = {
+            ['Enabled'] = (false),
+            ['Bind'] = {
+                ['Mode'] = ("Toggle"), -- Toggle / Hold
+                ['Key'] = ("X"),
+            },
+            ['Configurations'] = {
+                ['Delay'] = (0),
+                ['Prediction'] = (0.0),
+                ['Radius'] = (0),
+            },
+            ['Checks'] = {
+                ['TeamCheck'] = (false),
+                ['Knife'] = (false),
+            },
+        },
+
+        ['FOV'] = {
+            ['Visible'] = (false),
+            ['Shape'] = ("Circle"), -- Circle / Box
+            ['Filled'] = (false),
+            ['Color'] = {255, 255, 255},
+            ['Transparency'] = (1),
+            ['Radius'] = (150),
+            ['Position'] = ("Mouse"), -- Mouse / Center
+        },
+    },
+
+    ['Global'] = {
+        ['Safety'] = {
+            ['KnockedChecks'] = (true),
+            ['WallCheck'] = (false),
+            ['DistanceCheck'] = (false),
+            ['MaxDistance'] = (0),
+
+            ['Friendly'] = {
+                ['TeamCheck'] = (false),
+                ['FriendCheck'] = (false),
+                ['CrewCheck'] = (false),
+            },
+
+            ['Resolver'] = {
+                ['Enabled'] = (false),
+                ['Key'] = ("G"),
+                ['Method'] = "Soon",
+            },
+        },
+
+        ['Other'] = {
+            ['ModNotification'] = (false),
+            ['MemorySpoofer'] = (false),
+            ['PingSpoofer'] = (false),
+        },
+
+        ['Movement'] = {
+            ['Macro'] = {
+                ['Settings'] = {
+                    ['Enabled'] = (false),
+                    ['Mode'] = ("Toggle"), -- Toggle / Hold
+                    ['Key'] = ("B"),
+                },
+                ['Configurations'] = {
+                    ['Speed'] = (0.065),
+                    ['Type'] = ("Blizzard"), -- Blizzard / First / Third
+                },
+            },
+
+            ['WalkSpeed'] = {
+                ['Enabled'] = (true),
+                ['Mode'] = ("Toggle"), -- Toggle / Hold
+                ['Speed'] = (300),
+                ['Key'] = ("T"),
+            },
+        },
+
+        ['InventorySorter'] = {
+            ['Enabled'] = (false),
+            ['KeyBind'] = ("V"),
+            ['UseFood'] = (false),
+            ['Order'] = {
+                "[Double-Barrel SG]",
+                "[Revolver]",
+                "[TacticalShotgun]",
+                "[Shotgun]",
+                "[Katana]",
+            },
+        },
+    },
+}
